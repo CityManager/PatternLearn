@@ -1,9 +1,9 @@
 package ind.xwm.basic.pattern.producterCustomer.waitNotify;
 
-public class PhoneSaler implements Runnable {
+public class PhoneSalesman implements Runnable {
     private PhoneStorage<Phone> storage;
 
-    public PhoneSaler(PhoneStorage<Phone> storage) {
+    public PhoneSalesman(PhoneStorage<Phone> storage) {
         this.storage = storage;
     }
 

@@ -13,7 +13,7 @@ public class PhoneStorage<T> {
     private int index = -1;
 
 
-    private List<T> storages = new ArrayList<T>(MAX);
+    private List<T> storageList = new ArrayList<T>(MAX);
 
     public synchronized int getSeries() {
         return series;
@@ -25,7 +25,7 @@ public class PhoneStorage<T> {
             System.out.println("线程" + threadID + ":缓存区满，无法存放产品");
             this.wait();
         }
-        storages.add(t);
+        storageList.add(t);
         series++;
         index++;
         this.notifyAll();  // 是否会 自动 notify ？
@@ -39,7 +39,7 @@ public class PhoneStorage<T> {
             System.out.println("线程" + threadID + ":缓存区空，无法获取产品");
             this.wait();
         }
-        T t = storages.remove(index);
+        T t = storageList.remove(index);
         index--;
         this.notifyAll();
         System.out.println("线程" + threadID + ":成功将产品从缓存区取出");
