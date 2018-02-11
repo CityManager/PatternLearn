@@ -1,4 +1,6 @@
-package ind.xwm.basic.pattern.producterCustomer.waitNotify;
+package ind.xwm.basic.pattern.creatorCustomer.waitNotify;
+
+import ind.xwm.basic.pattern.creatorCustomer.Storage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.List;
  * 同步方法 是通过实例自己进行加锁和释放锁
  * 同步代码块 则需要额外的对象来充当锁
  */
-public class PhoneStorage<T> {
+public class PhoneStorage<T> implements Storage<T> {
     private static int MAX = 20;
 
     private int series;
