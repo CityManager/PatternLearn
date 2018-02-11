@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * phone 产品缓存区
+ * 同步方法 是通过实例自己进行加锁和释放锁
+ * 同步代码块 则需要额外的对象来充当锁
  */
 public class PhoneStorage<T> {
     private static int MAX = 20;
