@@ -15,6 +15,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 线程获得锁后，条件不满足的情况下，可以在条件a下 await , 然后给特定条件b信号
  * await在特定条件b上的线程接受到信号后继续执行，后续执行结束，可以给刚才的a条件信号，唤醒刚才的线程，
  * 也可以给条件c发信号， 总之可以灵活处理
+ *
  * @param <T>
  */
 public class ReentrantPhoneStorage<T> implements Storage<T> {

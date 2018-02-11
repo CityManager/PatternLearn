@@ -10,7 +10,7 @@ public class PhoneSalesman implements Runnable {
     }
 
     public void run() {
-        while(true) {
+        while (true) {
             salePhone();
             try {
                 Thread.sleep(100);

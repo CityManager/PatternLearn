@@ -10,7 +10,7 @@ public class WaitNotifyMain {
             thread.start();
         }
 
-        for(int i=0;i<5;i++) {
+        for (int i = 0; i < 5; i++) {
             Thread thread = new Thread(new PhoneSalesman(storage));
             thread.start();
         }
