@@ -1,4 +1,4 @@
-package ind.xwm.basic.pattern.creatorCustomer.waitNotify;
+package ind.xwm.basic.pattern.producerCustomer.waitNotify;
 
 public class Phone {
     private int id;

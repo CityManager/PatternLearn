@@ -1,6 +1,6 @@
-package ind.xwm.basic.pattern.creatorCustomer.blockQueue;
+package ind.xwm.basic.pattern.producerCustomer.blockQueue;
 
-import ind.xwm.basic.pattern.creatorCustomer.Storage;
+import ind.xwm.basic.pattern.producerCustomer.Storage;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

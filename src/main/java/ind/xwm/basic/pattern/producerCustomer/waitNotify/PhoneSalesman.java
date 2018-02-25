@@ -1,6 +1,6 @@
-package ind.xwm.basic.pattern.creatorCustomer.waitNotify;
+package ind.xwm.basic.pattern.producerCustomer.waitNotify;
 
-import ind.xwm.basic.pattern.creatorCustomer.Storage;
+import ind.xwm.basic.pattern.producerCustomer.Storage;
 
 public class PhoneSalesman implements Runnable {
     private Storage<Phone> storage;

@@ -1,6 +1,6 @@
-package ind.xwm.basic.pattern.creatorCustomer.awaitSignal;
+package ind.xwm.basic.pattern.producerCustomer.awaitSignal;
 
-import ind.xwm.basic.pattern.creatorCustomer.Storage;
+import ind.xwm.basic.pattern.producerCustomer.Storage;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ind.xwm.basic.pattern.creatorCustomer;
+package ind.xwm.basic.pattern.producerCustomer;
 
 public interface Storage<T> {
     int getSeries();
