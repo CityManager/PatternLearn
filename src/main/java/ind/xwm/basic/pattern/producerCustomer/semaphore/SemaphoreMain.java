@@ -4,7 +4,6 @@ import ind.xwm.basic.pattern.producerCustomer.Storage;
 import ind.xwm.basic.pattern.producerCustomer.waitNotify.Phone;
 import ind.xwm.basic.pattern.producerCustomer.waitNotify.PhoneProducer;
 import ind.xwm.basic.pattern.producerCustomer.waitNotify.PhoneSalesman;
-import ind.xwm.basic.pattern.producerCustomer.waitNotify.PhoneStorage;
 
 public class SemaphoreMain {
     public static void main(String[] args) {
